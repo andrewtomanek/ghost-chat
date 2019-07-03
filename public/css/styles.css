@@ -196,6 +196,7 @@ button:disabled {
 }
 
 .user__name {
+  font-family: "Patrick Hand", monospace;
   text-align: center;
   padding: 0.3rem 1rem;
   background-color: var(--dark);
@@ -324,6 +325,7 @@ button:disabled {
 }
 
 .message__text {
+  font-family: "Ubuntu", monospace;
   padding: 0.3rem 1rem;
   color: var(--dark);
   background-color: white;
