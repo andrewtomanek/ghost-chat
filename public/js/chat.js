@@ -78,7 +78,7 @@ socket.on("newLocationMessage", function(message) {
 <h4>${message.from}</h4>
 <span>${formattedTime}</span>
 </div>
-<div class="message__body">
+<div class="gps__body">
     <a class="gps__link" href="${
       message.url
     }" target="_blank">Moje aktuální poloha na mapě</a>

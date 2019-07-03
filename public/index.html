@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />   
+  <meta name="description" content="Chat applikace bez archivu zpráv"/>
   <title>Ghost chat</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 
@@ -16,11 +17,11 @@
       </div>
       <div class="form__field">
         <label class="form__label">Váš alias</label>
-        <input class="login__input" type="text" name="name" autofocus/>
+        <input class="login__input" aria-labelledby = "name"> type="text" name="name" autofocus/>
       </div>
       <div class="form__field">
         <label class="form__label">Název místnosti</label>
-        <input class="login__input" type="text" name="room"/>
+        <input class="login__input" aria-labelledby = "room"> type="text" name="room"/>
       </div>
             <button class="login__button">Vstup</button>
     </form>
