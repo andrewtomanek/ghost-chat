@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ghost chat</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body class="chat">
+    <div class="chat__sidebar">
+      <div class="chat__back">
+        <img class="chat__image" src="https://picsum.photos/480/1024" alt="" />
+      </div>
+      <div class="chat__user-box">
+        <h3 class="user__title">Lidé</h3>
+        <div id="users">
+          <ol class="user__list"></ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat__main">
+      <ol id="messages" class="chat__messages"></ol>
+
+      <div class="chat__footer">
+        <form class="message-form">
+          <input
+            class="message-input"
+            name="message"
+            type="text"
+            placeholder="Message"
+            autofocus
+            autocomplete="off"
+          />
+          <button class="message-button">Odeslat</button>
+          <button class="message-button" id="send-location">GPS</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/chat.js"></script>
+  </body>
+</html>
