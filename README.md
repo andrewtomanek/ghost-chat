@@ -1,7 +1,5 @@
 [![Build Status][build-shield]][build-url]
-[![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 <p align="center">
@@ -31,11 +29,13 @@
   <br />
 
   <br />
+  <p align="left">
 Pick your username and room. Login.
   <br />
 Send messages and your location in google maps.
   <br />
 Delete everything by refreshing the page.
+  </p>
   <br />
 
 ### Built With
