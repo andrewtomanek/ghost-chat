@@ -5,14 +5,14 @@
 
 <br />
 <p align="center">
-  <a href="https://czech-shop.herokuapp.com/">
+  <a href="https://node-ghost-chat.herokuapp.com">
     <img src="public/favicon.ico" alt="Logo" width="32" height="32">
   </a>
 
-  <h3 align="center">E-shop Node.js</h3>
+  <h3 align="center">ghost-chat</h3>
 
   <p align="center">
-    Node-shop with admin interface. 
+    Node.js chat app with sockets.io  
     <br />
 
 ## Table of Contents
@@ -25,23 +25,35 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+ <a href="https://node-ghost-chat.herokuapp.com">
+    <img src="public/chat.png" alt="Logo" width="80%" height="auto">
+  </a>
+  <br />
+
+  <br />
+Pick your username and room. Login.
+  <br />
+Send messages and your location in google maps.
+  <br />
+Delete everything by refreshing the page.
+  <br />
 
 ### Built With
 
-- []()
-- []()
-- []()
+- [Node](https://nodejs.org)
+- [Socket.io](https://socket.io)
+- [Express](https://expressjs.com)
 
 ### Installation
 
-1.
+1. Create a folder to hold your installation: mkdir ghost-chat
+2. FTP/Copy the contents of the zip to your newly created folder
 
-2)
+3. Install dependencies: npm install
 
-3.
+4. Start application: npm start
 
-4)
+5. Visit http://localhost:3000 in your browser
 
 ## License
 
@@ -49,9 +61,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+andrewtomanek - andrewtomanek@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/andrewtomanek/ghost-chat](https://github.com/andrewtomanek/ghost-chat)
 
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
 [build-url]: #
