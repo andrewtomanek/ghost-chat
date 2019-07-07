@@ -1,7 +1,3 @@
-[![Build Status][build-shield]][build-url]
-[![MIT License][license-shield]][license-url]
-
-<br />
 <p align="center">
   <a href="https://node-ghost-chat.herokuapp.com">
     <img src="public/favicon.ico" alt="Logo" width="32" height="32">
@@ -57,20 +53,10 @@ Delete everything by refreshing the page.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 ## Contact
 
 andrewtomanek - andrewtomanek@gmail.com
 
 Project Link: [https://github.com/andrewtomanek/ghost-chat](https://github.com/andrewtomanek/ghost-chat)
-
-[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
-[build-url]: #
-[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
-[license-url]: https://choosealicense.com/licenses/mit
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/screenshot.png
